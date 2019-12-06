@@ -37,7 +37,7 @@ include('../includes/admin_header.php'); ?>
                                             </div>
                                             <div class="form-group has-success">
                                                 <label for="cc-name" class="control-label mb-1">Product Price</label>
-                                                <input id="cc-name" name="product_price" type="double" class="form-control cc-name valid" data-val="true" data-val-required="Please enter the name on card"
+                                                <input id="cc-name" name="product_price" type="number" class="form-control cc-name valid" data-val="true" data-val-required="Please enter the name on card"
                                                     autocomplete="cc-name" aria-required="true" aria-invalid="false" aria-describedby="cc-name-error">
                                                 <span class="help-block field-validation-valid" data-valmsg-for="cc-name" data-valmsg-replace="true"></span>
                                             </div>
